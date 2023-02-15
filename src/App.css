@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
+body{
+  /* background-image: url('https://coolwallpapers.me/picsup/6249979-grass-station-nature-coastal-clouds-field-lighthouse-weather.jpg'); */
+ width: 95 vw;
+ height: 81vh;
+background-image: url('https://cdn.wallpapersafari.com/53/3/eqUf5z.jpg');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+} 
+.lists{
+ position: absolute;
+ top :13rem;
+ left:35.5rem;
+ width: 20rem;
+ height: 20rem;
+border-radius: 8px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ list-style: none;
+ /* background-image: url('https://i.pinimg.com/originals/0e/f3/bb/0ef3bb66d9216fffcea9022628f7bb26.gif'); */
+ /* opacity: 0.2; */
+background-color:#33495F;
+}  
+.country{
+  color:white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+} 
+.image{
+  height: 7rem;
+opacity: 0.7;
+
+ margin-top: -3rem;
+position: absolute; 
+ top:13rem;
+left: 5rem;
+}
+.me-2{
+  position: absolute;
+  top: 10rem;
+ right:44rem ;
+ width: 16rem;
+}
+.city{
+  color:white;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.temp{
+  font-size: xx-large;
   color: white;
+  display: flex;
+  justify-content: center;
+}        
+.Btn{
+  position: absolute;
+  top: 10rem;
+left:52rem;
+border:none ;
+height: 2.3rem;
+border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d-flex{
+  height: 3rem;
 }
